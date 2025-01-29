@@ -5,19 +5,19 @@ public class Main {
 
         // Primitive Data Type examples
         int number = 18;
-        double price = 9.99;
-        char grade = 'A';
-        boolean isPrime = true;
+        //double price = 9.99;
+        //char grade = 'A';
+        //boolean isPrime = true;
 
         // Non-Primitive Data Type examples
         String greeting = "Hello World!";
-        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        //[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         int greetLength = greeting.length();
         int total = MathUtils.add(greetLength, number);
         double ratio = MathUtils.ratio(greetLength, number);
 
-        for (int i = 0; i < numbers.length; i++) {
+        for (int i = 0; i < greetLength; i++) {
             System.out.println(greeting.charAt(i));
         }
 

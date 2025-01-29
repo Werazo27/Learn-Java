@@ -17,6 +17,10 @@ public class Main {
         int total = MathUtils.add(greetLength, number);
         double ratio = MathUtils.ratio(greetLength, number);
 
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(greeting.charAt(i));
+        }
+
         System.out.println(total);
         System.out.println(ratio);
     }
